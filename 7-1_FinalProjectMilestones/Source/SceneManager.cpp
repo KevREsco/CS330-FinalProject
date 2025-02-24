@@ -3,8 +3,6 @@
 // ============
 // manage the loading and rendering of 3D scenes
 //
-//  AUTHOR: Brian Battersby - SNHU Instructor / Computer Science
-//	Created for CS-330-Computational Graphics and Visualization, Nov. 1st, 2023
 ///////////////////////////////////////////////////////////////////////////////
 
 #include "SceneManager.h"
@@ -643,7 +641,7 @@ void SceneManager::RenderScene()
 
 	//3. Render the three camera bumps plus its ring to give a real phone look
 	{
-		// Half the phone’s dimensions for positioning reference
+		// Half the phoneÂ’s dimensions for positioning reference
 		float phoneHalfWidth = 0.5f * phoneScale.x;  // 1.0f
 		float phoneHalfHeight = 0.5f * phoneScale.z;  // 2.0f
 
